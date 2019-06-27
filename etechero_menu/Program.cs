@@ -6,11 +6,9 @@ using System.Windows.Forms;
 
 namespace etechero_menu
 {
-    static class Program
+    static class Program //bingo
     {
-        /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
+
         [STAThread]
         static void Main()
         {

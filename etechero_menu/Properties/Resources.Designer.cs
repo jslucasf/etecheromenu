@@ -10,9 +10,8 @@
 
 namespace etechero_menu.Properties {
     using System;
-    using System.Drawing;
-
-
+    
+    
     /// <summary>
     ///   Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
     /// </summary>
@@ -32,9 +31,7 @@ namespace etechero_menu.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-
-        public static Image Collapse_Arrow_20px { get; internal set; }
-
+        
         /// <summary>
         ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
         /// </summary>
@@ -60,6 +57,16 @@ namespace etechero_menu.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _60415464_2689667571049947_8005585732825513984_o {
+            get {
+                object obj = ResourceManager.GetObject("60415464_2689667571049947_8005585732825513984_o", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -109,6 +116,26 @@ namespace etechero_menu.Properties {
         internal static System.Drawing.Bitmap Expand_Arrow_20px {
             get {
                 object obj = ResourceManager.GetObject("Expand Arrow_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy {
+            get {
+                object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy1 {
+            get {
+                object obj = ResourceManager.GetObject("giphy1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
